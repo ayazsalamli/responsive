@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box{
+             width: 100%;            
+            background-color: lime;
+            height: 100px;
+            padding: 5px;
+        }
+        .box2{
+            background-color: red;
+            height: 100px;
+            width: 100%;
+            padding: 5px;
+
+        }
+        @media(max-width:450px){
+            .cont{
+                flex-direction: column;
+            }
+            .box2{
+                color: aliceblue;
+                margin: 10px auto;
+            }
+        }
+        .hed{
+            background-color: aqua;
+            display: flex;
+            position: sticky;
+
+        }
+        .box3{
+            background-color: burlywood;
+            height: 100px;
+            width: 100%;
+            padding: 5px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="hed">Header:
+        <button><a href="https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1">calendar</a>:</button><button><a href="https://www.youtube.com/watch?v=fXYuAFG7yKQ">AxeSAY</a></button>
+        <button><a href="https://www.youtube.com/watch?v=rAlymhPyKhQ">
+            Genshin Impact</a></button>
+            <button><a href="https://www.youtube.com/watch?v=exyADbOO5vQ">nilla</a></button>
+    </div>
+    <h1>responsive</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt quos nobis architecto fugit accusantium dolore rerum quasi inventore consectetur culpa quaerat perspiciatis ea sed, error a incidunt commodi atque!</p>
+    
+    <div class="cont">
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium vitae atque tempora sed magni voluptas tenetur perspiciatis molliti</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae adipisci officia et, vitae harum illum asperiores saepe amet, !</div>
+        <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsam perferendis aliquam soluta, perspiciatis quia.</div>
+    </div>
+   
+</body>
+</html>
